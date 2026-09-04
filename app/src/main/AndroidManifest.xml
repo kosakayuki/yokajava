@@ -23,7 +23,11 @@
         </activity>
         <activity
             android:name=".SNSActivity"
-            android:exported="false"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PostPage"
+            android:exported="true"
             android:windowSoftInputMode="adjustResize" />
     </application>
 
