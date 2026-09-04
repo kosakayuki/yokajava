@@ -1,5 +1,6 @@
 package jp.ac.meijou.android.project_c;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -68,6 +69,11 @@ public class MainActivity extends AppCompatActivity {
                 new String[] {"name", "image2", "image"},
                 new int[] {R.id.name, R.id.image2, R.id.image}
         ));
+
+        binding.postButton.setOnClickListener(view ->{
+            Intent intent = new Intent(this, PostPage.class);
+            startActivity(intent);
+        });
 
 
     }
