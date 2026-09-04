@@ -39,6 +39,18 @@ public class PostPage extends AppCompatActivity {
 
 
 
+        //掃除終了のボタン
+        binding.finish.setOnClickListener(view -> {
+            //カメラ起動
+            intent.setAction(INTENT_ACTION_STILL_IMAGE_CAMERA);
+        });
+
+        binding.back.setOnClickListener(view -> {
+            //カメラ起動
+            intent.setAction(INTENT_ACTION_STILL_IMAGE_CAMERA);
+        });
+
+
 
     }
 }
