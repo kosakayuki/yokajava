@@ -43,11 +43,11 @@ public class MainActivity extends AppCompatActivity {
         String[] titles ={"2026/1/2", "2027/2/4", "2027/6/4"};
 
         int[] images = {
-                R.drawable.test_image0,R.drawable.test_image0,R.drawable.test_image0,
+                R.drawable.test_image0,R.drawable.test_image2,R.drawable.test_image4,
         };
 
         int[] images2 = {
-                R.drawable.test_image1,R.drawable.test_image1,R.drawable.test_image1,
+                R.drawable.test_image1,R.drawable.test_image3,R.drawable.test_image5,
         };
 
         ArrayList<Map<String, Object>> listData = new ArrayList<>();
